@@ -1,0 +1,160 @@
+.selected-moviebox
+{
+	width:100%;
+	height:500px;
+	background-color: #1a2228;
+	display:inline-flex;
+}
+.cover-photo
+{
+	width:600px;
+	height:600px;
+	border-radius:50%;
+	box-shadow: -7px 0px 10px #4e4b4a;
+}
+.movie-poster
+{
+	width:300px;
+	height:400px;
+	margin-top: 50px;
+	margin-left: 80px;
+	border-radius: 9px;
+	box-shadow: 7px 7px 8px #4e4b4a;
+}
+.movie-information
+{
+   margin-left:100px;
+   margin-top:100px;
+}
+.movie_name
+{
+	text-transform: capitalize; 
+	color:white; 
+	font-size: 40px;
+	font-family:times new roman;	
+}
+.book-tickets
+{
+	width:185px;
+	height:40px;
+	color:white;
+	background-color: #FF0080;
+	border-radius: 9px;
+	box-shadow: 0 0 30px #FF0080;
+	cursor:pointer;
+	padding-top: 7px;
+	margin-top:400px; 
+	margin-left:-100px; 
+	font-size:25px; 
+	padding-left:25px;
+}
+.movie-details
+{
+  margin-left:100px;
+  margin-top: 50px;
+}
+.hall-list
+{
+	position:absolute;
+	width:70%;
+	background-color:#4e4b4a;
+	top:80px;
+	left:220px;
+	display: none;
+}
+#close1
+{ 
+	margin-left:870px;
+	margin-top: 5px;
+	background-color: transparent;
+	font-size:30px;
+	color:#FF0080;
+	border:none;
+	cursor: pointer;
+}
+
+.abc
+{
+	width:100%;
+	background-color:#F5F5F5;
+	padding: 15px 10px;
+	display: inline-flex;
+	border-bottom: solid #454545 1px;
+}
+.date-time-box
+{
+	width:300px;
+	font-family: "sagoe UI",sans-serif;
+	margin-left:100px;
+	border:solid #FF0080 3px;
+	border-radius: 7px;
+	background:#FF0080;
+	box-shadow: 0 0 30px #FF0080;
+}
+.date
+{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 1px;
+}
+.time
+{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 0px;
+}
+.select-date
+{
+	width: 600px;
+	padding:10px 15px;
+	display: inline-flex;
+	margin-left: 10px;
+	margin-top: 13px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.date-for-booking
+{
+	font-weight: bold;
+	width:75px;
+	height:60px;
+	text-align: center;
+	border:solid #FF0080 2px;
+	border-radius:9px; 
+	font-size: 15px;
+	margin-left: 5px;
+	color:black;
+	z-index: 1;
+}
+.btn-scroll1
+{
+	align-items:center;
+	font-size:20px;
+	cursor:pointer;
+	color:#FF0080;
+	border:none;
+}
+#btn-scroll-right1
+{
+ position:absolute;
+ top:100px;
+ right:490px;
+}
+#btn-scroll-left1
+{
+ position:absolute;
+ top:100px;
+ left:10px;
+}
+.select-date:nth-child(3):hover
+{
+   	background-color: green;
+}
+.citylist
+{
+	width:1150px;
+	background-color:#F5F5F5;
+	text-align: center;
+}

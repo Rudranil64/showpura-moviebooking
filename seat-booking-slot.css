@@ -1,0 +1,172 @@
+*
+{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+body
+{
+	background-color: white;
+}
+.first-header
+{
+	width:100%;
+	height:80px;
+	background-color: black;
+	padding:15px 15px;
+	display: inline-flex;
+}
+.movie-name
+{
+	font-size: 18px;
+	color:#FF0080;
+	font-family: times new roman;
+	font-weight:bold;
+}
+.hall-name
+{
+	font-size: 14px;
+	font-family: times new roman;
+	font-weight: bold;
+	color:#FF0080;
+}
+.no-of-seat-choice
+{
+	width:100px;
+	height:40px;
+	border:solid #FF0080 2px;
+	text-align: center;
+	border-radius: 9px;
+	margin-left: 1050px;
+	color:#FF0080;
+	font-size: 18px;
+	padding-top: 8px; 
+}
+.seat-box
+{
+	width:1000px;
+	background-color: #E0E0E0;
+	margin-left: 255px;
+	perspective:600px;
+}
+.seat-variation-platinum
+{
+	padding:5px 20px; 
+	border-bottom: solid black 2px;
+}
+.row
+{
+	display:inline-flex;
+	margin-bottom: 7px;
+	margin-left: 25px;
+}
+.seat 
+{
+	background-color: #fff;
+	height: 20px;
+	width:35px;
+	font-size: 15px;
+	margin-left:7px;
+	text-align:center;
+	justify-content: center;
+	padding:0px 0px;
+	border:solid #FF0080 1px;
+}
+.seat:nth-child(6)
+{
+	margin-left:40px;
+}
+.seat:nth-child(18)
+{
+	margin-left: 40px;
+}
+.seat-variation-gold
+{
+	padding:5px 20px; 
+	margin-top:20px;
+	border-bottom: solid black 2px;
+}
+.screen
+{
+	background-color:blue;
+	border:solid black 2px;
+	height:80px;
+	width:500px;
+	margin-left: 270px;
+	transform:rotateX(83deg);
+	box-shadow:0 3px 40px blue;
+	margin-top:70px; 
+
+}
+.showcase
+{
+	width:100%;
+	height:40px;
+	background-color: white;
+	margin-top: 10px;
+	padding:10px 245px;
+	display: inline-flex;
+	margin-bottom:20px;
+}
+.connect
+{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin:0px 10px;
+}
+.seat.selected{
+	background-color:#FF0080;
+}
+.seat.occupied{
+	background-color: #E0E0E0;
+	border:solid #FF0080 1px;
+}
+.row .seat:not(.occupied):hover
+{
+	cursor:pointer;
+}
+.showcase .seat:not(.occupied):hover
+{
+	cursor:default;
+}
+
+.showcase .connect div
+{
+	margin-left: 10px;
+}
+.total-bill-box
+{
+	width:100%;
+	height:60px;
+	display: none;
+	text-align: center;
+	position:absolute;
+	position:fixed;
+	top:660px;
+	background-color: #fff;
+	z-index: 1;
+	box-shadow: 0px -6px 16px black;
+}
+.total-pay
+{
+	width:350px;
+	height:40px;
+    background-color: #ff0080;
+    color:white;
+    border-radius: 9px;
+    margin-left: 560px;
+    margin-top:10px;
+    text-align:center;
+    padding-top:10px;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
